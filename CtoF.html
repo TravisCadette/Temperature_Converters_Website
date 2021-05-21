@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-<link rel="stylesheet" href="styles/converter.css">
+    <link rel="stylesheet" href="styles/converter.css">
     <script src="scripts/page.js"></script>
     <title>Calculator</title>
 </head>
@@ -63,20 +63,23 @@
 
         <!-- Celsius to Farenhet Convertor -->
         <form class="Converter" style="justify-content: center;">
-            <p><label for="Celsius">Celsius C</label>
+            <div class="col-md-12">
+                <p><label for="Celsius">Celsius C</label>
+                    <br>
+                    <input type="text" id="number1" />
+                </p>
+
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="button" value="Convert C-F" id="fCBtn">
+
+                </p>
+
+                <input type="text" id="results">
                 <br>
-                <input type="text" id="number1" />
-            </p>
+                <input type="reset" value="Reset">
+            </div>
 
-            <p>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <input type="button" value="Convert C-F" id="fCBtn">
-
-            </p>
-
-            <input type="text" id="results"> 
-            <br>
-            <input type="reset" value="Reset">
         </form>
 
     </main>

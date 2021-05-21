@@ -9,6 +9,10 @@
     align-items: center;
 }
 
+form {
+    text-align: center;
+}
+
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
