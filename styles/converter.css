@@ -1,7 +1,10 @@
 .Converter {
-    margin: auto;
+    margin-top: 20%;
     width:  50%;
     border: 3px #5f9ea0;
     padding: auto;
     text-align: center;
+}
+#fCBtn {
+    align-items: center;
 }
